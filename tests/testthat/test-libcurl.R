@@ -13,5 +13,6 @@ describe("https", {
 	mran <- "http://mran.revolutionanalytics.com/snapshot/" 
 	mran.root <- url(mran, method = "libcurl")
 	readLines(mran.root)
+	print(mran.root)
   })
 })
